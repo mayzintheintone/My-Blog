@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <!-- Body Content -->
+    <!-- Header -->
+    <header>
+      <h1>MY BLOG</h1>
+      <p>Welcome to the blog of unknown</p>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Post -->
+      <div><h2>TITLE HEADING</h2></div>
+    </main>
+    <!-- Footer -->
+    <footer><p>&copy; 2026 My Blog. All rights reserved.</p></footer>
+  </body>
+</html>
