@@ -8,9 +8,12 @@ body {
   font-weight: 400;
   font-style: normal;
   padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0;
 }
 header {
   padding: 32px 20px;
+  background-color: antiquewhite;
 }
 .head-text {
   text-align: center;
@@ -31,7 +34,11 @@ p span {
 .post {
   max-width: 1000px;
   /* background-color: aquamarine; */
-  margin: 0 auto;
+  margin: 0 auto 100px;
+  box-shadow:
+    0 4px 18px 0 rgba(0, 0, 0, 0.2),
+    0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 12px;
 }
 img {
   display: block;
@@ -72,4 +79,16 @@ h5 span {
 .post-content a:hover {
   cursor: pointer;
   background-color: #cccccc;
+}
+footer {
+  background-color: #616161;
+  margin-top: 100px;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  width: calc(100%+40px);
+  margin: -20px;
+}
+.footer-content {
+  margin: 0;
+  text-align: center;
 }
